@@ -1,6 +1,6 @@
 {
   "name": "vibepolyfill",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Polyfill vibe coding IDE.",
   "bin": {
     "vibepolyfill": "vibepolyfill.js",
