@@ -1,6 +1,6 @@
 {
   "name": "vibepolyfill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Polyfill vibe coding IDE.",
   "bin": {
     "vibepolyfill": "vibepolyfill.js",
@@ -8,7 +8,8 @@
   },
   "scripts": {
     "dev": "npx vp",
-    "build": "esbuild ./src/index.ts --outfile=./dist/index.js",
+    "esbuild-without-external": "esbuild --bundle --external:node:fs --external:node:path --external:node:process --external:node:readline --external:commander",
+    "build": "pnpm run esbuild-without-external ./src/index.ts --outfile=./dist/index.js",
     "prepublish": "pnpm run build"
   },
   "dependencies": {
