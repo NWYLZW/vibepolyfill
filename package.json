@@ -1,0 +1,23 @@
+{
+  "name": "vibepolyfill",
+  "version": "0.0.1",
+  "description": "Polyfill vibe coding IDE.",
+  "bin": {
+    "vibepolyfill": "vibepolyfill.js",
+    "vp": "vibepolyfill.js"
+  },
+  "scripts": {
+    "dev": "npx vp",
+    "build": "esbuild ./src/index.ts --outfile=./dist/index.js",
+    "prepublish": "pnpm run build"
+  },
+  "dependencies": {
+    "commander": "^14.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.3.0",
+    "esbuild-register": "^3.6.0",
+    "esbuild": "^0.25.9",
+    "vibepolyfill": "file:."
+  }
+}
