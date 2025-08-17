@@ -1,6 +1,6 @@
 import * as fs from 'node:fs'
 import * as process from 'node:process'
-import { resolve, dirname } from 'node:path'
+import { resolve, basename } from 'node:path'
 
 import { program } from 'commander'
 
@@ -130,11 +130,11 @@ program
           fs.mkdirSync(d, { recursive: true })
         }
         resolvedRules.forEach(({ path }) => {
-          fs.symlinkSync(path, resolve(d, dirname(path)))
+          fs.symlinkSync(path, resolve(d, basename(path)))
         })
         return
       }
-      adapt(d, {
+      void adapt(d, {
         resolvedRules
       })
     })
