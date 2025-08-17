@@ -3,6 +3,11 @@
 | [zh-Hans](./README.md)
 | en-US
 
+[![npm version](https://img.shields.io/npm/v/vibepolyfill)](https://www.npmjs.com/package/vibepolyfill)
+[![npm downloads](https://img.shields.io/npm/dm/vibepolyfill)](https://www.npmjs.com/package/vibepolyfill)
+![Node support](https://img.shields.io/badge/node-%3E%3D18-43853d?logo=node.js&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-compatible-F69220?logo=pnpm&logoColor=white)
+
 A small tool to "lay out" rule files for multiple AI IDEs/assistants: keep your rule list in `.vp/` and generate (or route to) platform-specific rule file locations with a single command.
 
 - Supported languages: `en-US`, `zh-Hans`
@@ -162,6 +167,10 @@ pnpm build # outputs dist/index.js
 	- `en-US` and `zh-Hans` default contents may not be fully synced; use `-l zh-Hans` if you want the more complete Chinese annotations.
 - Symbolic link creation failed?
 	- Some platforms require admin privileges or developer mode to create symlinks.
+
+## Tags
+
+`vibepolyfill`, `AI assistant`, `IDE`, `rules`, `prompt`, `GitHub Copilot`, `Claude`, `Cursor`, `Windsurf`, `Continue`, `Amazon Q`, `Cline`, `Junie`, `Trae`, `Gemini`, `routing`, `symlink`, `CLI`, `Node.js`, `pnpm`
 
 ## License
 

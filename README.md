@@ -3,6 +3,11 @@
 | zh-Hans
 | [en-US](./README.en.md)
 
+[![npm version](https://img.shields.io/npm/v/vibepolyfill)](https://www.npmjs.com/package/vibepolyfill)
+[![npm downloads](https://img.shields.io/npm/dm/vibepolyfill)](https://www.npmjs.com/package/vibepolyfill)
+![Node support](https://img.shields.io/badge/node-%3E%3D18-43853d?logo=node.js&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-compatible-F69220?logo=pnpm&logoColor=white)
+
 一个用于为多种 AI IDE/助手“铺设规则文件”的小工具：统一在 `.vp` 中维护你的规则清单，然后一键为不同平台生成（或路由到）对应的规则文件位置。
 
 - 支持的语言：`en-US`、`zh-Hans`
@@ -162,6 +167,10 @@ pnpm build # 产出 dist/index.js
   - 目前 `en-US` 与 `zh-Hans` 的默认内容不同步程度不同；可使用 `-l zh-Hans` 以获得中文注释更完整的汇总说明。
 - 符号链接失败？
   - 在某些平台上需要管理员权限，或开启开发者模式。
+
+## 标签
+
+`vibepolyfill`, `AI 助手`, `IDE`, `规则文件`, `Prompt`, `GitHub Copilot`, `Claude`, `Cursor`, `Windsurf`, `Continue`, `Amazon Q`, `Cline`, `Junie`, `Trae`, `Gemini`, `路由`, `符号链接`, `CLI`, `Node.js`, `pnpm`
 
 ## 许可
 
