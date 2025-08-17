@@ -105,7 +105,7 @@ vp -t all
 
 可用别名：
 - aiassistant: idea, jetbrains, jb
-- amazonq: amazon, amaz
+- amazonq: amazon, amzn
 - github: copilot
 - claude: claudeCode, claudecode, claude-code
 

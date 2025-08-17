@@ -105,7 +105,7 @@ Built-in types:
 
 Available aliases:
 - aiassistant: idea, jetbrains, jb
-- amazonq: amazon, amaz
+- amazonq: amazon, amzn
 - github: copilot
 - claude: claudeCode, claudecode, claude-code
 

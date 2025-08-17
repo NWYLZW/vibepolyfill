@@ -60,7 +60,7 @@ export const TYPE_ALIAS = {
   ],
   amazonq: [
     'amazon',
-    'amaz'
+    'amzn'
   ],
   github: [
     'copilot'
