@@ -22,10 +22,10 @@ export const DEFAULT_VP_CONFIG = {
 
 export const DEFAULT_RULE_MD = i18nRender({
   'zh-Hans': `
-  测试
+  默认规则文件
   `,
   'en-US': `
-  Test
+  Default rule file
   `
 })
 
@@ -40,7 +40,16 @@ export const ROUTE_RULE_MD = (rules: ResolvedRule[]) => i18nRender({
   ${JSON.stringify(rules)}
   \`\`\`
   `,
-  'en-US': ``
+  'en-US': `
+  Please read the referenced files following the rules below. Field explanations:
+  - path: the filesystem path to the sub-rule file
+  - description: a short summary of what the rule file contains to help decide whether to read it
+  - pattern: when present, only read this sub-rule if the target file path matches the given pattern
+  If a rule object has neither description nor pattern, it will be read by default.
+  \`\`\`ts
+  ${JSON.stringify(rules)}
+  \`\`\`
+  `
 })()
 
 export const TYPE_ALIAS = {

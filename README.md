@@ -1,5 +1,8 @@
 # vibepolyfill
 
+| zh-Hans
+| [en-US](./README.en.md)
+
 一个用于为多种 AI IDE/助手“铺设规则文件”的小工具：统一在 `.vp` 中维护你的规则清单，然后一键为不同平台生成（或路由到）对应的规则文件位置。
 
 - 支持的语言：`en-US`、`zh-Hans`
