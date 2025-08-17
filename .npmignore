@@ -1,3 +1,4 @@
 src
 .idea
 .dev-tag
+tsconfig.json
